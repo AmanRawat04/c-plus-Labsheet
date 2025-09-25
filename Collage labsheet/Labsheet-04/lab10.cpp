@@ -1,4 +1,4 @@
-// Program to dispaly the months name based on month numbers using switch
+// Program to dispaly the months name based on month numbers using switch statement
 #include <iostream>
 using namespace std;
 int main()
