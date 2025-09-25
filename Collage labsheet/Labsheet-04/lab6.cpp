@@ -1,29 +1,36 @@
-//Program to assign grades  based on marks(if else ladder)
+// Program to assign grades  based on marks(if else ladder)
 #include <iostream>
 using namespace std;
-int main(){
+int main()
+{
     int marks;
     char Grade;
-    cout<<"Enter the marks : \n";
-    cin>>marks;
-    if(marks>=90){
+    cout << "Enter the marks : \n";
+    cin >> marks;
+    if (marks >= 90)
+    {
         Grade = 'A';
     }
-    else if(marks>=80){
+    else if (marks >= 80)
+    {
         Grade = 'B';
     }
-    else if(marks>=70){
+    else if (marks >= 70)
+    {
         Grade = 'C';
     }
-    else if(marks>=60){
+    else if (marks >= 60)
+    {
         Grade = 'D';
     }
-    else if(marks>=50){
+    else if (marks >= 50)
+    {
         Grade = 'E';
     }
-    else{
-        Grade ='F';
+    else
+    {
+        Grade = 'F';
     }
-    cout<<"Grade:"<<Grade<<endl;
+    cout << "Grade:" << Grade << endl;
     return 0;
 }
